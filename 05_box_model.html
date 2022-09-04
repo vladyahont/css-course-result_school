@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+      }
+      .container {
+        max-width: 750px;
+        margin: auto;
+      }
+      .box {
+        background: darkorchid;
+        color: white;
+        padding: 20px;
+        border: 4px solid red;
+        margin: 10px;
+      }
+      .blocks {
+        width: 100%;
+      }
+      .blocks .block {
+        width: 25%;
+        background: black;
+        height: 50px;
+        float: left;
+        border: 4px solid green;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Box model</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ipsa
+          placeat!
+        </p>
+      </div>
+      <div class="box">
+        <h2>Box model</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ipsa
+          placeat!
+        </p>
+      </div>
+    </div>
+    <div class="blocks">
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+    </div>
+  </body>
+</html>

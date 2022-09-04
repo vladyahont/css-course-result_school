@@ -1,0 +1,32 @@
+Псевдо селекторы a {
+  color: #333333;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+a:hover {
+  color: orange;
+  font-size: 1.5rem;
+}
+a:visited {
+  color: palevioletred;
+}
+a:active {
+  color: blue;
+}
+.css:hover {
+  background: red;
+}
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: inherit;
+}
+.btn:hover {
+  opacity: 0.8;
+  color: orange;
+}
